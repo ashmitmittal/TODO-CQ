@@ -1,0 +1,30 @@
+body {
+	font-family: "Poppins";
+}
+.jumbotron {
+	background-color: #e8f9e9;
+	color: #f688bb;
+}
+#addTask {
+	display: block;
+	margin: 10px auto;
+}
+.btn-outline-danger {
+	background-color: #baf1a1;
+}
+#listItems {
+	list-style-type: none;
+}
+#listItems li {
+	background-color: #f688bb;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	transition: 0.4s;
+}
+#listItems li span {
+	color: white;
+}
+#listItems li:hover {
+	transform: scale(1.06);
+}

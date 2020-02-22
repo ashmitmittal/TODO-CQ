@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<title>TODO APP</title>
+	</head>
+	<body>
+		<div class="container jumbotron text-center">
+			<h1>TODO APP</h1>
+			<p style="float: right;">By ~ <i>Ashmit</i></p>
+		</div>
+		<div class="container">
+			<input
+				class="form-control"
+				type="text"
+				placeholder="Enter task"
+				id="task"
+			/>
+			<button class="btn btn-outline-danger" id="addTask">
+				ADD TASK
+			</button>
+		</div>
+		<div class="container ">
+			<ul class="list-group" id="listItems"></ul>
+		</div>
+		<script src="./app.js"></script>
+	</body>
+</html>
