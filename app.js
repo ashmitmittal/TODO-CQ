@@ -5,7 +5,7 @@ if (getTodo != null) {
 	todoArr = JSON.parse(localStorage.getItem("todos"));
 	console.log(todoArr);
 	for (var i = 0; i < getTodo.length; i++) {
-		if (getTodo[i].length > 2) {
+		if (getTodo[i].length > 1) {
 			var li = document.createElement("li");
 			var span = document.createElement("span");
 			var text = document.createTextNode(" X");
